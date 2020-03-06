@@ -6,16 +6,16 @@ Marijuana is one of the most widely used illicit substance worldwide.  Its poten
 
 
 # Hypotheses
-![Hypotheses](/Figures/hypotheses.png?raw=true "Hypotheses")
+![Hypotheses](/Figures/hypotheses.PNG?raw=true "Hypotheses")
 
 # Method
-![Base Statistics](/Figures/base_statistics.png?raw=true "Base Statistics")
+![Base Statistics](/Figures/base_statistics.PNG?raw=true "Base Statistics")
 As shown above, the transformed data still is not quite normal.  Therefore, nonparametric testing seemed more appropriate for the situation.  However, Welch’s t-test was also used for reference for p-values.  As for the nonparametric methods, the Mann-Whitney U test and randomization were used.  For randomization, I shuffled the independent variable such that each individual received a random corresponding dependent variable.  Then the dependent variables were categorized into the aforementioned two groups, and then the test statistic, namely, the difference between means between the two groups, was calculated.  Through ten-thousand iterations, a null distribution for the test statistic was established for the three dependent variables.  
 
 # Results
-![p-values](/Figures/p-values.png?raw=true "p-values")
+![p-values](/Figures/p-values.PNG?raw=true "p-values")
 Since the randomization method generates a null distribution of its own, the distribution, along with the test statistic calculated from the original sample, is shown in the figure below.
-![Randomization Test](/Figures/random_test.png?raw=true "Randomization Test")
+![Randomization Test](/Figures/random_test.PNG?raw=true "Randomization Test")
 
 # Conclusion
 The difference between the means for CUDIT and CEQ were not significant with respect to the null hypothesis at the alpha level of 0.05.  However, the difference in mean for IDAS was significant with respect to the null hypothesis that asserted no difference.  Taking the hypotheses into consideration, this suggests that subjects in the two groups did not have any statistically significant differences in terms of their views on dependency and PTSD treatment.  In contrast, the heavier smoking group had a significantly lower mean in IDAS score, supporting the potential medicinal benefits of cannabis in terms of mental health.  A recurring trend in cannabis research is the emergence of conflicting results across different studies, and even within this study itself, one may find conflicting results within the interpretation of the effects on cannabis.  The inherent limitations of using numerical analysis for psychiatric study will still remain, but with more resources, studies with stricter controls and methods will be available, leading to tests with increased power and accuracy.  Until then, studies such as this one must first pave the way for future research by contributing to literature using whatever resources available at the time.  
